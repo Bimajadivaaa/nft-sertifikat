@@ -47,7 +47,6 @@ const Home: NextPage = () => {
   return (
     <div className="page">
       <Head>
-        {/* <link rel="shortcut icon" href="/favicon.ico" /> */}
         <title>NFT Mint Certificate</title>
       </Head>
       <div className="container">
@@ -58,6 +57,15 @@ const Home: NextPage = () => {
             </p>
             <p style={{ margin: "12px 0 24px" }}>
               Mint Sertifikat Kamu disini!
+            </p>
+            <p style={{ margin: "10px 0 10px" }}>
+              Belum Punya Sepolia?{" "}
+              <a
+                style={{ color: "blue" }}
+                href="https://www.alchemy.com/faucets/ethereum-sepolia"
+              >
+                Claim disini
+              </a>
             </p>
             <ConnectButton />
 
